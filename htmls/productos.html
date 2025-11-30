@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Productos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+<!-- Encabezado -->
+<header class="encabezado">
+    <div class="contenedor">
+        <h1 class="logo">TechStore</h1>
+        <nav class="navegacion">
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html" class="activo">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Contenido Principal -->
+<main class="contenido-principal">
+    <section class="seccion-productos">
+        <div class="contenedor">
+            <h2 class="titulo-seccion">Nuestros Productos</h2>
+            <div class="filtros">
+                <button class="boton-filtro activo" data-categoria="todos">Todos</button>
+                <button class="boton-filtro" data-categoria="teclados">Teclados</button>
+                <button class="boton-filtro" data-categoria="ratones">Ratones</button>
+                <button class="boton-filtro" data-categoria="audifonos">Audífonos</button>
+            </div>
+            <div class="contenedor-productos" id="contenedor-productos">
+                <!-- Los productos se cargarán aquí con JavaScript -->
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Pie de página -->
+<footer class="pie-pagina">
+    <div class="contenedor">
+        <p>&copy; 2025 TechStore - Tarea de Aplicaciones Web</p>
+        <p>Profesor: Gleiston Guerrero Ulloa</p>
+    </div>
+</footer>
+
+<script src="../js/contacto.js"></script>
+<script src="../js/productos.js"></script>
+</body>
+</html>
